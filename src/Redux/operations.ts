@@ -10,7 +10,7 @@ import {
 } from "../interfaces/authInterface";
 import { errorToastEmitter, succesToastEmitter } from "../Components/Toaster/toaste";
 
-axios.defaults.baseURL = "http://localhost:3000/";
+axios.defaults.baseURL = "https://pet-support-back.onrender.com/";
 
 const auth = {
   set(token: string): void {

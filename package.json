@@ -1,5 +1,6 @@
 {
   "name": "pet-support-front",
+  "homepage": "https://yuriizag.github.io/pet-support-front/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
