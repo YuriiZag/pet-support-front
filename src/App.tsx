@@ -19,7 +19,6 @@ const RegisterPage = lazy(() => import("./pages/registerPage/registerPage"));
 
 const App = () => {
   console.log("app rendered");
-  
   const dispatch = useAppDispatch();
 
   useEffect(() => {
