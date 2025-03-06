@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter basename="https://yuriizag.github.io/pet-support-front">
+      <BrowserRouter basename="/pet-support-front">
         <Normalize />
         <App />
       </BrowserRouter>
