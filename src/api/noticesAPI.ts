@@ -1,8 +1,6 @@
 import axios, { AxiosResponse } from "axios";
 import { ICreatedNotice, INotice } from "../interfaces/noticeIntefaces";
 
-axios.defaults.baseURL = "http://localhost:3000/";
-
 export const fetchNoticesByCategory = async (
   category: string
 ): Promise<AxiosResponse<{ notices: INotice[] }>> => {
